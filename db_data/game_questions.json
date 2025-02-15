@@ -1,0 +1,113 @@
+
+[{
+    "gameId":"game-1",
+    "name":"Quiz",
+    "questions":[
+        {
+          "question": "Guess the spelling",
+          "image": "images/bubbles.gif",
+          "answers": [
+            { "text": "bubbles", "correct": true },
+            { "text": "duddles", "correct": false },
+            { "text": "buddles", "correct": false },
+            { "text": "dubbles", "correct": false }
+          ]
+        },
+        {
+          "question": "How many nines are present?",
+          "image": "images/96.png",
+          "answers": [
+            { "text": "5", "correct": true },
+            { "text": "6", "correct": false },
+            { "text": "7", "correct": false },
+            { "text": "4", "correct": false }
+          ]
+        },
+        {
+          "question": "How many d's are present?",
+          "image": "images/bd.png",
+          "answers": [
+            { "text": "6", "correct": true },
+            { "text": "8", "correct": false }
+          ]
+        },
+        {
+            "question": "What is the boy doing?",
+            "image": "images/swim.gif",
+            "answers": [
+              { "text": "SWIMMING", "correct": true },
+              { "text": "SWIMMMING", "correct": false }
+            ]
+        },
+        {
+            "question": "Guess the spelling",
+            "image": "images/cat.gif",
+            "answers": [
+              { "text": "caj", "correct": false },
+              { "text": "cat", "correct": true }
+            ]
+          },
+          {
+            "question": "Which sentence is correct?",
+            "image": "images/play.png",
+            "answers": [
+              { "text": "1", "correct": true },
+              { "text": "2", "correct": false }
+            ]
+          },
+          {
+            "question": "Guess the spelling",
+            "image": "images/money.gif",
+            "answers": [
+              { "text": "momey", "correct": false },
+              { "text": "money", "correct": true }
+            ]
+          },
+          {
+            "question": "Position of the correct spelling?",
+            "image": "images/writing.jpg",
+            "answers": [
+              { "text": " ", "correct": true },
+              { "text": " ", "correct": false },
+              { "text": " ", "correct": false },
+              { "text": " ", "correct": false }
+            ]
+          }]
+    },
+    {
+        "gameId":"game-2",
+        "name":"Letter Fill-in-Game",
+        "questions":[
+                        { 
+                "word": "ap_le", 
+                "image": "images_2/apple.png", 
+                "correctLetter": "p", 
+                "options": ["q", "p", "d", "b"]
+            },
+            { 
+                "word": "_at", 
+                "image": "images_2/bat.avif", 
+                "correctLetter": "b", 
+                "options": ["d", "p", "b", "q"]
+            },
+            { 
+                "word": "do_", 
+                "image": "images_2/dog.jpg", 
+                "correctLetter": "g", 
+                "options": ["g", "d", "b", "p"]
+            },
+            { 
+                "word": "_at", 
+                "image": "images_2/cat.jpeg", 
+                "correctLetter": "c", 
+                "options": ["k", "a", "c", "b"]
+            },
+            { 
+                "word": "b_by", 
+                "image": "images_2/baby.jpeg", 
+                "correctLetter": "a", 
+                "options": ["o", "a", "c", "u"]
+            }
+        ]
+    }
+]

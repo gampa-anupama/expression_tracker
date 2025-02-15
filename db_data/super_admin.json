@@ -1,0 +1,7 @@
+{
+    "admin_name": "SuperAdmin",
+    "phone_number": "1234567890",
+    "admin_email": "superadmin@example.com",
+    "role": "super_admin",
+    "password": "$2a$10$QG3fJ0hTfZQuQGp2FkeWCOEpZOqi7L.BpRc3iB3yeacIy.jIr6sOq"
+  }
