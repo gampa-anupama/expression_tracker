@@ -1,0 +1,144 @@
+/* Container styling */
+.face-validation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    max-width: 640px;
+    margin: 1rem auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Title */
+  /* .face-capture-container h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  } */
+  
+  /* Video styling */
+  .video-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 320px;
+    border-radius: 12px;
+    object-fit: contain;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Status section */
+  .status-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .status-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .status-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Icon colors */
+  .status-icon.pass {
+    color: #16a34a;
+  }
+  
+  .status-icon.fail {
+    color: #dc2626;
+  }
+  
+  .status-icon.loading {
+    color: #facc15;
+  }
+  
+  /* Status message */
+  .status-message {
+    font-size: 1rem;
+    margin: 0.75rem 0;
+    text-align: center;
+    color: #444;
+    padding: 0 1rem;
+  }
+  
+  /* Capture Button */
+  .continue-button {
+    background-color: #ac2a2a;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.05rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 0.5rem;
+  }
+  
+  .continue-button:hover:not(:disabled) {
+    background-color: #ae3838;
+  }
+  
+  .continue-button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive tweaks */
+  @media screen and (max-height: 750px) {
+    .face-capture-container {
+      padding: 1rem;
+      max-width: 600px;
+    }
+  
+    .video-wrapper video {
+      max-height: 280px;
+    }
+  
+    .status-icon {
+      font-size: 1.5rem;
+    }
+  
+    .continue-button {
+      padding: 0.6rem 1.3rem;
+      font-size: 1rem;
+    }
+  }
+  .loader {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #d1d5db; /* light gray */
+    border-top: 3px solid #ac2a2a; /* blue spinner color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .status-icon .loader {
+    font-size: inherit;
+    vertical-align: middle;
+  }
